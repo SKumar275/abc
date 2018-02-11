@@ -1,0 +1,33 @@
+<html>
+<head>
+<title> Sum of Factorial </title>
+</head>
+<script>
+function a1()
+{
+a=document.f1.t1.value;
+fact=1;
+sum=0;
+for(i=1;i<=a;i++)
+{
+
+	fact=fact*i;
+
+	sum=sum+fact;
+}
+alert(sum);
+}
+</script>
+<body>
+<form name="f1" method="post" action="">
+<table margin="1">
+<tr>
+<td> Enter the number </td>
+<td> <input type="text" name="t1" id="t1"></td>
+</tr>
+<tr>
+<td> <input type="button" name="s1" value="Go" onclick="a1();"></td>
+</tr>
+</form>
+</body>
+</html>

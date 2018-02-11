@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>Palindrome </title>
+</head>
+<script>
+function a1()
+{
+a=document.f1.t1.value;
+alert(a);
+rn=0;
+
+k=a;
+while(a>0)
+{
+rem=(a%10);
+rn=(rn*10+rem);
+a=parseInt(a/10);
+
+}
+if(k==rn)
+{
+alert("Palindrome");
+} 
+else
+{
+alert("Not Palindrome");
+}
+}
+</script>
+<body>
+<form name="f1" method="post" action="">
+<table border="1">
+<tr>
+<td> Enter the name </td>
+<td><input type="text" name="t1" id="t1"></td>
+</tr>
+<tr>
+<td><input type="button" name="s1" value="Go" onclick="a1();"></td>
+</tr>
+</form>
+</body>
+</html>

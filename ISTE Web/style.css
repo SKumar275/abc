@@ -1,0 +1,618 @@
+h1
+{
+	font-family:"Arial Black", Gadget, sans-serif;
+	color:#00F;
+	font-size:36px;
+	text-align:center;
+	text-shadow: 10px 10px 10px #009;
+}
+body{
+	font: 15px/1.5;
+	padding: 0;
+	margin: 0;
+	background-color:#999;
+	
+}
+.top{
+	position: fixed;
+	margin-top: 550px;
+	float:left;
+	margin-left: 980px;
+
+}
+.Register{
+	position: relative;
+	margin-top: 400px;
+	font-family: Times New Roman;
+	font-size: 25px;
+	background-color: #35424a;
+	width: 25%;
+	height: 40px;
+	padding: 5px;
+	color: white;
+}
+#reg{
+	text-decoration: none;
+	color: black;
+}
+#logo{
+	float: left;
+	padding: 0 0 0 10px;
+	margin: 0px;
+	display: inline;
+	width: 200px;
+	position: relative;
+
+}
+ nav {
+	height: 70px;
+	background-color: red;
+	width: 720px;
+    float: left;
+	display: inline;
+	padding-top: 20px;
+	margin-left: 150px;
+	position: fixed;
+	opacity: .7;
+}
+ nav ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+ nav ul li{
+	float: left;
+	margin:0 20px 0 0;
+	padding: 10px;
+} 
+ nav ul a{
+	text-decoration: none;
+	color: black;
+}
+ nav ul  li {
+	float: left;
+	text-decoration: bold;
+	font-family: Berlin Sans FB;
+	font-size: 25px;
+}
+.fa{ margin-right: 5px;
+ }
+ nav ul li:hover{
+	text-decoration: underline;
+}
+
+ .nitlogo{
+float: right;
+padding-right: 20px;
+position: relative;
+}
+.con1{
+	height: 750px;
+	width: 100%;
+	padding: 0px;
+	overflow: hidden;
+	position: relative;
+}
+.con1 .img{
+	height: 750px;
+	width: 100%;
+	animation:r 15s infinite;
+	-webkit-animation: r 15s infinite;
+	position: absolute;
+	opacity: 0;
+}
+@keyframes r{
+	20%{opacity: 1}
+	65%{opacity: 0}
+}
+.con1 img:nth-child(0){animation-delay: 0s; -webkit-animation-delay:0s;}
+.con1 img:nth-child(1){animation-delay: 5s; -webkit-animation-delay:5s;}
+.con1 img:nth-child(2){animation-delay: 10s; -webkit-animation-delay:10s;}
+
+
+.main{
+	margin:0;
+	float: left;
+	height: 400px;
+	width: 100%;
+	background-color:  rgb(255,208,47);
+	background-width:100%;
+
+}
+.main h4{
+	font-size: 20px;
+	color: rgb(56,56,56);
+	font-family: Berlin Sans FB;
+}
+.main p{
+	font-size: 15px;
+	color: rgb(73,73,73);
+	font-family: Berlin Sans FB;
+}
+.main a{
+	text-decoration: none;
+	color: rgb(0,0,0);
+	font-family: Berlin Sans FB;
+}
+.main a:hover{
+	text-decoration: underline;
+	color:rgb(0,0,0);
+}
+.main a:visited{
+	text-decoration: none;
+	color: rgb(0,0,0)
+}
+
+.main .box1{
+	padding-left: 50px;
+	
+	float:left;
+	padding-right: 80px;
+	padding-bottom: 50px;
+	height: 150px;
+	width:350px;
+}
+
+.main .box2{
+	
+	float:left;
+	padding-right: 80px;
+	padding-bottom: 50px;
+	height: 150px;
+	width:350px;
+}
+.main .box4{
+	padding-left: 50px;
+	
+	float:left;
+	padding-right: 80px;
+	height: 150px;
+	width:350px;
+}
+.main .box5{
+	
+	float:left;
+	padding-right: 80px;
+	height: 150px;
+	width:350px;
+}
+.main .box3{
+	padding-right: 85px;
+	
+	float: left;
+	height: 150px;
+	width:350px;
+	padding-bottom: 50px;
+}
+.main .box6{
+		padding-right: 85px;
+	
+	height: 150px;
+	width:350px;
+	float: left;
+}
+
+.main .box1 img{
+	float: left;
+	padding-right: 10px;
+}
+.main .box2 img{
+	float: left;
+	padding-right: 10px;
+}
+.main .box3 img{
+	float: left;
+	padding-right: 10px;
+}
+.main .box4 img{
+	float: left;
+	padding:10px 10px 0 0;
+}
+.main .box5 img{
+	float: left;
+	padding-right: 10px;
+}
+.main .box6 img{
+	float: left;
+	padding-right: 10px;
+}
+
+
+
+.container2{
+	float: left;
+	height: 420px;
+	width: 100%;
+	background-color: rgb(63,63,63);
+	font-family: Arial;
+	margin-top: 50px;
+}
+.container2 h2{
+	font-size: 36px;
+	font-family: Berlin Sans FB;
+	text-align: center;
+}
+.container2 p{
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	font-family: Comic Sans MS;
+}
+.container2 ul{
+	font-size: 20px;
+	text-align: center;
+	list-style: none;
+}
+.container2 ul li{
+	padding-bottom: 10px;
+	color: white;
+}
+.container2 a{
+	font-size: 18px;
+	text-decoration: none;
+	color: white;
+	float: right;
+	padding-right:10px; 
+}
+.container2 a:hover{
+	text-decoration: underline;
+}
+.container2 img{
+float: left;
+padding-right: 30px;
+}
+.container3{
+	float: left;
+	height:300px;
+	width: 100%
+	background-color:#ffffff;
+	padding-top:50px;
+}
+.container3 h1{
+	padding-left: 350px;
+    font-size: 50px;
+    color: rgb(123,118,131);
+    font-family: Berlin Sans FB;
+}
+.container3 .join{
+	margin-left: 500px;
+    height: 75px;
+    width: 300px;
+    font-size: 25px;
+    background-color: rgb(44,163,58);
+    color: white;
+    font-family: Comic Sans MS;
+}
+footer{
+	float: left;
+	background-color: rgb(215,218,215);
+	text-align: center;
+	height: 150px;
+	width: 100%;
+	font-size: 20px;
+	font-family: Calibri;
+	
+}
+footer img{
+	padding-left: 50px;
+	margin-left: 10px;
+}
+footer #soc{
+	padding: 0;
+	margin: 0;
+	float: right;
+}
+
+footer p{ 
+float: left; 
+	padding: 0px;
+}
+footer marquee{
+	font-size: 15px;
+	background-color: #303030;
+	color: white;
+	padding: 0;
+	margin: 0;
+}
+
+
+/*About page*/
+.main2{
+	background-color: lightgrey;
+	float: left;
+	padding-left: 20px;
+	height:620px;
+	width: 98.5%;
+	font-family: Berlin Sans FB;
+	margin-top: 5px;
+
+}
+.main2 article{
+	height: 600px;
+	width:700px;
+	float: left;
+	display: inline;
+	font-size: 30px;
+	
+}
+
+.main2 article p{
+	font-size: 20px;
+	color: rgb(80,80,80);
+}
+.main2 aside 
+{
+	margin-top: 0px;
+	margin-right: 20px;
+	width: 400px;
+	height: 600px;
+	float: right;
+	display: inline;
+	text-align: center;
+	background-color: rgb(227,223,225);
+	}
+
+.main2 aside .news h2{
+	background-color: rgb(81,87,79);
+	font-family: Arial;
+	color: white;
+}
+.main2 aside .news ul{
+	list-style: none;
+	font-family: Calibri;
+	font-size: 20px;
+	text-align: left;
+}
+.main2 aside .news ul li{
+	padding: 15px 0;
+
+}
+.main2 aside .news ul li a{
+	text-decoration: none;
+	color: rgb(100,100,100);
+}
+.main2 aside .news ul li a:hover{
+	text-decoration: underline;
+}
+
+
+/*Contact*/
+.member{
+	height: 590px;
+	width:700px;
+	float: right;
+	display: inline;
+	font-size: 30px;
+	padding: 0;
+	border-style: solid;
+	border-width: 1px;
+	margin:10px;
+	border-radius: 50px;
+	font-family: Calibri;
+
+}
+.member h1{
+	text-align: center;
+	font-family: Berlin Sans FB;
+}
+.member ul{
+	list-style: none;
+}
+.member ul li{
+	padding-bottom: 22px;
+	float: left;
+}
+.faculty{
+	height: 590px;
+	width:400px;
+	float: left;
+	display: inline;
+	font-size: 30px;
+	margin-left: 20px;
+	border-radius: 50px;
+	margin-top: 10px;
+	border-style: solid;
+	border-width: 1px;
+	font-family: Calibri;
+}
+.faculty h3{
+	text-align: center;
+	font-family: Berlin Sans FB;
+}
+.faculty ul{
+	list-style: none;
+}
+.faculty ul li{
+	padding: 40px 0;
+}
+
+.main3{
+	background-color: rgb(120,120,120);
+	float: left;
+	margin-top: 10px;
+	padding: 20px;
+	width: 97.5%;
+	font-family: Berlin Sans FB;
+	margin-bottom: 50px;
+
+}
+.main3 article{
+	width:700px;
+	float: left;
+	display: inline;
+	font-size: 30px;
+	
+}
+
+.main3 article p{
+	font-size: 20px;
+
+}
+.main3 aside 
+{
+	margin-top: 0px;
+	margin-right: 20px;
+	width: 400px;
+	height: 600px;
+	float: right;
+	display: inline;
+	text-align: center;
+	background-color: rgb(227,223,225);
+	}
+
+.main3 aside .news h2{
+	background-color: rgb(81,87,79);
+	font-family: Arial;
+	color: white;
+}
+.main3 aside .news ul{
+	list-style: none;
+	font-family: Arial;
+	text-align: left;
+}
+.main3 aside .news ul li{
+	padding: 20px 0;
+}
+.main3 aside .news ul li a{
+	text-decoration: none;
+	color: rgb(40,34,102);
+}
+.main3 aside .news ul li a:hover{
+	text-decoration: underline;
+}
+.main3 img{
+	margin: 20px;
+}
+.main3 img:hover{
+	opacity: 0.7;
+}
+.main3 h1{
+	text-align: center;
+	font-size: 40px;
+}
+.boxi{
+	background-image: url('img/tex.jpg');
+	width: 100.25%;
+	height: 600px;
+	overflow: hidden;
+	margin:0;
+	padding: 0;
+
+}
+.boxi .sbox{
+	float: left;
+	padding: 50px;
+	border-radius: 50px;
+}
+
+}
+.boxi .sbox h4{
+	padding-left: 40px;
+}
+.boxi .sbox h4{
+	padding-left: 40px;
+}
+span{
+	font-size: 36px;
+	text-align: center;
+}
+
+.c1{
+	height: 450px;
+	width: 290px;
+	padding:10px;
+	overflow: hidden;
+	position: relative;
+	float: left;
+}
+.c1 img{
+	height: 450px;
+	width: 290px;
+	animation:r 20s infinite;
+	-webkit-animation: r 20s infinite;
+	position: absolute;
+	
+}
+@keyframes r{
+	10%{opacity: 1}
+	65%{opacity: 0}
+}
+.c1 img:nth-child(0){animation-delay: 0s; -webkit-animation-delay:0s;}
+.c1 img:nth-child(1){animation-delay: 5s; -webkit-animation-delay:5s;}
+.c1 img:nth-child(2){animation-delay: 10s; -webkit-animation-delay:10s;}
+.c1 img:nth-child(3){animation-delay: 15s; -webkit-animation-delay:15s;}
+
+.c2{
+	float: left;
+	height: 450px;
+	width: 290px;
+	padding:10px;
+	overflow: hidden;
+	position: relative;
+}
+.c2 img{
+	height: 450px;
+	width: 290px;
+	animation:r 20s infinite;
+	-webkit-animation: r 20s infinite;
+	position: absolute;
+	
+}
+@keyframes r{
+	10%{opacity: 1}
+	65%{opacity: 0}
+}
+.c2 img:nth-child(0){animation-delay: 0s; -webkit-animation-delay:0s;}
+.c2 img:nth-child(1){animation-delay: 5s; -webkit-animation-delay:5s;}
+.c2 img:nth-child(2){animation-delay: 10s; -webkit-animation-delay:10s;}
+.c2 img:nth-child(3){animation-delay: 15s; -webkit-animation-delay:15s;}
+
+.c3{
+	float: left;
+	height: 450px;
+	width: 290px;
+	padding:10px;
+	overflow: hidden;
+	position: relative;
+}
+.c3 img{
+	height: 450px;
+	width: 290px;
+	animation:r 20s infinite;
+	-webkit-animation: r 20s infinite;
+	position: absolute;
+	
+}
+@keyframes r{
+	10%{opacity: 1}
+	65%{opacity: 0}
+}
+.c3 img:nth-child(0){animation-delay: 0s; -webkit-animation-delay:0s;}
+.c3 img:nth-child(1){animation-delay: 5s; -webkit-animation-delay:5s;}
+.c3 img:nth-child(2){animation-delay: 10s; -webkit-animation-delay:10s;}
+.c3 img:nth-child(3){animation-delay: 10s; -webkit-animation-delay:15s;}
+
+.c4{
+	padding:10px;
+	height: 450px;
+	width: 290px;
+	overflow: hidden;
+	position: relative;
+	float: left;
+}
+.c4 img{
+	height: 450px;
+	width: 290px;
+	animation:r 20s infinite;
+	-webkit-animation: r 20s infinite;
+	position: absolute;
+	
+}
+@keyframes r{
+	10%{opacity: 1}
+	65%{opacity: 0}
+}
+.c4 img:nth-child(0){animation-delay: 0s; -webkit-animation-delay:0s;}
+.c4 img:nth-child(1){animation-delay: 5s; -webkit-animation-delay:5s;}
+.c4 img:nth-child(2){animation-delay: 10s; -webkit-animation-delay:10s;}
+.c4 img:nth-child(3){animation-delay: 15s; -webkit-animation-delay:15s;}
